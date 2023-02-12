@@ -1,0 +1,96 @@
+body{
+	background:lightblue;
+	color:#A2ADA9;
+	font-family:Garamond;
+	font-size: 25px;
+	text-align: center;
+}
+h1,h2{
+	color:#75B9BE;
+	font-family:Helvetica;
+	font-weight:bolder;
+	text-align: center;
+}
+h1{
+	font-size:65px;
+}
+h2{
+	font-size: 40;
+}
+a {text-decoration: none;
+	color:#A2ADA9;
+	font-family:Garamond;
+}
+a:hover{
+	color:black;
+	font-family:helvetica;
+}
+
+
+.container {
+ width:700px;
+ margin:40px auto;
+}
+
+
+@media (max-width:960px){
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width:720px){
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width:540px){
+	.container{
+		width: 300px;
+	}
+}
+
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 7px;
+	margin: 20px 0px;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color:#75B9BE;
+	color:white;
+	padding: 15px 20px;
+	border-radius:7px;
+}
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-horizontal li{
+	display: inline;
+	padding: 10px;
+}
+.list-horizontal i{
+	font-size: 40px;
+}
+
+#introduction p{
+ margin-bottom: 50px;
+}
+
+
+
